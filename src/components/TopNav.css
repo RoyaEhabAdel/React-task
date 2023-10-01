@@ -1,0 +1,41 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -450px;
+    margin-left: 500px;
+    padding: 10px;
+}
+.top .dropdown{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 145px;
+    background-color: white;
+}
+.top .dropdown .drop{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 500;
+}
+.top .btns{
+    display: flex;
+}
+.top .btns .btnsIcons{
+    display: flex;
+}
+.top .btns .btnsIcons div{
+    padding: 5px;
+    border: 1px solid white;
+    margin-left: 3px;
+    border-radius: 10px;
+    background-color: white;
+}
+.top .last .drop{
+    display: flex;
+    font-size: 14px;
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+}

@@ -1,0 +1,85 @@
+.content{
+    margin-left: 450px;
+    margin-top: 30px;
+}
+.content .contentHead{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.content .contentHead .first{
+    display: flex;
+    margin-top: -8px;
+}
+.content .contentHead .first h4{
+    color: blue;
+    margin-left: 10px;
+}
+.content .contentHead .first input{
+    margin-top: -10px;
+}
+.content .contentHead ul{
+    list-style: none;
+    display: flex;
+}
+.content .contentHead ul li{
+    display: flex;
+    text-align: center;
+}
+.content .contentHead ul li h4{
+    margin-top: -2px;
+    margin-right: 20px;
+    color: blue;
+}
+.content .contentHead ul li h5{
+    margin-top: 0;
+    margin-right: 3px;
+}
+.content .contentHead ul li span{
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.content .contentBody{
+    background-color: white;
+}
+.content .contentBody ul{
+    list-style: none;
+    text-align: left;
+    padding-top: 10px;
+}
+.content .contentBody ul .all{
+ display: flex;
+ padding-bottom: 10px;
+ border-bottom: 1px solid gray;
+}
+.content .contentBody ul li h3{
+    margin-left: 20px;
+    background-color: rgb(185, 185, 187);
+    border-radius: 50%;
+    padding: 10px;
+}
+.content .contentBody ul li ul{
+    margin-left: 150px;
+}
+.content .contentBody ul li ul li{
+    font-size: 14px;
+}
+.content .contentBody ul li ul .name{
+    font-weight: 500;
+    font-size: 16px;
+}
+.content .contentBody ul li ul .btns{
+    margin-top: 20px;
+}
+.content .contentBody ul li ul .btns button{
+    background-color: rgb(175, 175, 250);
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 5px;
+}

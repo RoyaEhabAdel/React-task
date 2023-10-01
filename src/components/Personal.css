@@ -1,0 +1,43 @@
+
+.main .pForm{
+    width:500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+    height: 520px;
+}
+.main .pForm .pFirst input{
+    border: none;
+    border-bottom: 1px solid gray ;
+    width: 500px;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.main .pForm .pLast{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    border-bottom: 1px solid gray ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.main .pForm .pLast input{
+    border: none;
+    background-color: white;
+}
+.main .pForm .pLast .pMain{
+    width: 300px;
+
+}
+.main .pForm .add{
+    display: flex;
+    justify-content: left;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.main .pForm .add h3{
+    margin-left: 10px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(246, 246, 247);
+}
+.SideBar{
+    background-color: white;
+    padding-top: 20px;
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    box-shadow: 2px 2px rgb(230, 229, 229);
+}
+.SideBar ul{
+    list-style: none;
+}
+.SideBar ul li{
+    text-align: left;
+    padding-bottom: 30px;
+}
+.SideBar ul .mainLi{
+    padding-bottom: 20px;
+}

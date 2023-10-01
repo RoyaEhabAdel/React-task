@@ -1,0 +1,98 @@
+.aQuestion{
+    margin-left: 800px;
+    margin-top: -2000px;
+}
+.aQuestion .aForm{
+    width:500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+    height: 520px;
+}
+.aQuestion .heading{
+    width: 520px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+    background-color: rgb(211, 248, 236);
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+}
+.aQuestion .aForm h4{
+    margin-left: -450px;
+    font-size: 11px;
+    color: gray;
+}
+.aQuestion .aForm input{
+    border: none;
+    width: 500px;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.aQuestion .aForm .para{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.aQuestion .aForm .para .edit{
+    cursor: pointer;
+}
+.aQuestion .aForm h3{
+    margin-left: -450px;
+    font-size: 14px;
+}
+#question{
+    border: 1px solid black;
+}
+.aQuestion .aForm h5{
+    margin-left: -350px;
+}
+#list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#list input{
+    width: 400px;
+    height: 5px;
+    border: 1px solid black;
+}
+#addValue{
+    cursor: pointer;
+}
+.aQuestion .aForm .add{
+    display: flex;
+    justify-content: left;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.aQuestion .aForm .add h3{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.aQuestion .aForm .formFooter{
+    display: flex;
+    justify-content: space-between;
+}
+.aQuestion .aForm .formFooter div{
+    display: flex;
+    align-items: center;
+    color: rgb(146, 1, 1);
+}
+.aQuestion .aForm .formFooter h2{
+    font-size: 18px;
+}
+.aQuestion .aForm .formFooter h6{
+    margin-left: 10px;
+}
+.aQuestion .aForm .formFooter button{
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border-style: none;
+    padding: 5px;
+    border-radius: 5px;
+}

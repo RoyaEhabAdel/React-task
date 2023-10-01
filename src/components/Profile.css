@@ -1,0 +1,32 @@
+.main .Form{
+    width:500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+}
+.main .Form .pLast{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    border-bottom: 1px solid gray ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.main .Form .pLast input{
+    border: none;
+    background-color: white;
+}
+.main .Form .pLast label{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main .Form .add{
+    display: flex;
+    justify-content: left;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.main .Form .add h3{
+    margin-left: 10px;
+    cursor: pointer;
+}
